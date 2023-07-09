@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+button {
+  font-size: 1.6rem;
+  background-color: rgb(181, 101, 255);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.117);
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.green {
+  color: rgb(0, 178, 0);
+}
+
+.red {
+  color: rgb(255, 78, 78);
+}
+
+.btn {
+  padding: 1.2rem 2.4rem;
+}
+
+/*  */
+.friends {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem 4rem;
+}
+/*  */
+
+/*  */
+
+.friend {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.102);
+}
+
+.friend button {
+  justify-self: end;
+}
+
+.friend h1 {
+  font-size: 2.4rem;
+}
+
+.friend p {
+  font-size: 1.4rem;
+}
+
+/*  */
+.addFriend {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: rgba(179, 98, 255, 0.127);
+  border-radius: 1.2rem;
+  margin: 2rem 4rem;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.117);
+}
+
+.addFriend label {
+  padding: 0.1rem;
+  font-size: 1.6rem;
+}
+
+.addFriend input {
+  padding: 0.1rem;
+  font-size: 1.6rem;
+}
+
+.addFriend button {
+  grid-column: 2/3;
+}
+
+.add-section button {
+  float: right;
+}
+
+/*  */
